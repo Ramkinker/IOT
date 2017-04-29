@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "498360598499",
+    "project_id": "firebase-crowdexchange"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498360598499:android:71f1c50a72e27dd2",
+        "android_client_info": {
+          "package_name": "com.exchange.crowd.crowdexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498360598499-b3k69s4gs0jc11gg4k8uanf9tufv2ism.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exchange.crowd.crowdexchange",
+            "certificate_hash": "0e981f434c7c30c00f78598b2f8fd3c88eeabef4"
+          }
+        },
+        {
+          "client_id": "498360598499-3286t6mgp26l0eevbh14vsdt6gp7037c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7JYW-KmgfmskE7BZzLoksRxwSVIJmlfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
