@@ -15,7 +15,7 @@ public class  MainActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        b1 = (Button) findViewById(R.id.button1);
+        b1 = (Button) findViewById(R.id.sign_in);
         b1.setOnClickListener(this);
 
         b2 =(Button) findViewById(R.id.button2);
@@ -27,11 +27,15 @@ public class  MainActivity extends AppCompatActivity implements View.OnClickList
     {
         // TODO Auto-generated method stub
         switch(v.getId()){
-            case R.id.button1:
+            case R.id.sign_in:
 
                 //Replace this to call my layout
-                setContentView(R.layout.activity_login);
-                Intent i = new Intent(this, LoginActivity.class);
+//                setContentView(R.layout.activity_login);
+//                Intent i = new Intent(this, LoginActivity.class);
+//                startActivity(i);
+//                break;
+                setContentView(R.layout.activity_borrow_item_details);
+                Intent i = new Intent(this, BorrowItemDetailsActivity.class);
                 startActivity(i);
                 break;
             case R.id.button2:

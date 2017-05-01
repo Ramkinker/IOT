@@ -7,166 +7,313 @@
     tools:context="com.exchange.crowd.crowdexchange.BorrowItemDetailsActivity">
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="22dp"
-        android:layout_height="21dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="22dp"
-        android:layout_height="21dp"
+        android:layout_height="0dp"
         app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="361dp"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintLeft_toLeftOf="@+id/imageButton4"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        android:layout_marginEnd="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="27dp" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="334dp"
+        android:layout_width="0dp"
         android:layout_height="119dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="175dp"
-        tools:text="12 Amp Electric Motor delivers enough power to cut through the toughest grass Durable steel 20-Inch cutting deck gets the job done quicker and more efficiently 3-in-1 feature provides multiple options for grass clippings from rear bagging, side discharge and mulching capabilities for versatile needs 7 position height adjustment offers a range of cutting height from 1 1/2-Inch to 3 3/4-Inch for the perfect cut on all grass types Wide 10-Inch rear wheels and 7-Inch front wheels. Please lift the rear discharge cover to find the mulching plug. Weight:  56 lbs." />
+        android:text="12 Amp Electric Motor delivers enough power to cut through the toughest grass Durable steel 20-Inch cutting deck gets the job done quicker and more efficiently 3-in-1 feature provides multiple options for grass clippings from rear bagging, side discharge and mulching capabilities for versatile needs 7 position height adjustment offers a range of cutting height from 1 1/2-Inch to 3 3/4-Inch for the perfect cut on all grass types Wide 10-Inch rear wheels and 7-Inch front wheels. Please lift the rear discharge cover to find the mulching plug. Weight:  56 lbs."
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="180dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp" />
+
+
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="164dp"
         android:layout_height="39dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="123dp"
-        tools:text="Security deposit : $600" />
-
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="84dp"
-        android:layout_height="77dp"
-        android:scaleType="center"
-        android:src="@drawable/lawnmover"
-        tools:layout_editor_absoluteY="311dp"
-        tools:layout_editor_absoluteX="67dp" />
+        android:text="Security deposit : $600"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="125dp"
+        app:layout_constraintHorizontal_bias="0.821" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="82dp"
-        android:layout_height="77dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:scaleType="center"
         android:src="@drawable/lawnmover"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="311dp" />
+        app:layout_constraintRight_toLeftOf="@+id/imageButton11"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        android:layout_marginEnd="4dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintLeft_toRightOf="@+id/imageView5"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="4dp" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="79dp"
-        android:layout_height="77dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:scaleType="center"
         android:src="@drawable/lawnmover"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="311dp" />
+        app:layout_constraintRight_toLeftOf="@+id/imageView5"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        android:layout_marginEnd="11dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton12"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="79dp"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:src="@drawable/lawnmover"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/chat_now"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="145dp"
-        android:layout_height="137dp"
+        android:layout_height="0dp"
         android:scaleType="center"
         android:src="@drawable/lawnmover"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="27dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="27dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="36dp"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="105dp"
         android:layout_height="20dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="466dp"
-        tools:text="bob@gmail.com" />
+        android:text="bob@gmail.com"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/borrow"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="58dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chat_now" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="158dp"
         android:layout_height="32dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="79dp"
-        tools:text="$45 per hour" />
+        android:text="$45 per hour"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="49dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        android:layout_marginEnd="49dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="52dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintLeft_toRightOf="@+id/imageView4"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="49dp" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="25dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="32dp"
-        tools:text="Lawn Mover" />
+        android:text="Lawn Mover"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintRight_toRightOf="@+id/imageButton3"
+        android:layout_marginTop="32dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp" />
 
     <Button
         android:id="@+id/borrow"
         android:layout_width="255dp"
-        android:layout_height="43dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="495dp"
-        tools:text="Borrow" />
+        android:layout_height="48dp"
+        android:text="Borrow"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/chat_now"
         android:layout_width="255dp"
-        android:layout_height="43dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="409dp"
-        tools:text="Chat Now" />
+        android:layout_height="48dp"
+        android:text="Chat Now"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/borrow"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/email_button"
         android:layout_width="34dp"
         android:layout_height="30dp"
         app:srcCompat="@android:drawable/sym_action_email"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="456dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="118dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="119dp"
+        app:layout_constraintLeft_toLeftOf="@+id/chat_now"
+        app:layout_constraintTop_toTopOf="@+id/imageButton12"
+        android:layout_marginLeft="9dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="22dp"
-        android:layout_height="21dp"
+        android:layout_height="0dp"
         app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintRight_toRightOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        android:layout_marginRight="36dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="22dp"
-        android:layout_height="21dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintRight_toRightOf="@+id/textView8"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/location_button"
         android:layout_width="22dp"
         android:layout_height="30dp"
+        android:layout_marginBottom="119dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView5"
+        app:layout_constraintRight_toRightOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/imageButton11"
         app:srcCompat="@drawable/ic_location_on_black"
-        tools:layout_editor_absoluteX="297dp"
-        tools:layout_editor_absoluteY="456dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="27dp"
         android:layout_height="27dp"
         app:srcCompat="@android:drawable/ic_media_next"
-        tools:layout_editor_absoluteX="345dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintRight_toRightOf="@+id/imageButton5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintLeft_toRightOf="@+id/chat_now"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" />
 
     <ImageButton
         android:id="@+id/imageButton12"
         android:layout_width="22dp"
-        android:layout_height="27dp"
+        android:layout_height="0dp"
         app:srcCompat="@android:drawable/ic_media_previous"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton11"
+        android:layout_marginLeft="38dp" />
 
 </android.support.constraint.ConstraintLayout>

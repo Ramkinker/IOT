@@ -7,17 +7,17 @@
     tools:context="com.exchange.crowd.crowdexchange.MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/sign_in"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="@string/signin"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        android:layout_marginStart="1dp"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="32dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:text="@string/signin"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintLeft_toLeftOf="@+id/button2"
-        android:layout_marginLeft="1dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <Button
         android:id="@+id/button2"
