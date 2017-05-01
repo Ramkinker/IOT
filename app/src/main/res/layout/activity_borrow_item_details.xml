@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.exchange.crowd.crowdexchange.BorrowItemDetailsActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="334dp"
+        android:layout_height="119dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="175dp"
+        tools:text="12 Amp Electric Motor delivers enough power to cut through the toughest grass Durable steel 20-Inch cutting deck gets the job done quicker and more efficiently 3-in-1 feature provides multiple options for grass clippings from rear bagging, side discharge and mulching capabilities for versatile needs 7 position height adjustment offers a range of cutting height from 1 1/2-Inch to 3 3/4-Inch for the perfect cut on all grass types Wide 10-Inch rear wheels and 7-Inch front wheels. Please lift the rear discharge cover to find the mulching plug. Weight:  56 lbs." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="164dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="123dp"
+        tools:text="Security deposit : $600" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        android:scaleType="center"
+        android:src="@drawable/lawnmover"
+        tools:layout_editor_absoluteY="311dp"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        android:scaleType="center"
+        android:src="@drawable/lawnmover"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:scaleType="center"
+        android:src="@drawable/lawnmover"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        android:scaleType="center"
+        android:src="@drawable/lawnmover"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="105dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:text="bob@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="158dp"
+        android:layout_height="32dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="79dp"
+        tools:text="$45 per hour" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="32dp"
+        tools:text="Lawn Mover" />
+
+    <Button
+        android:id="@+id/borrow"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="495dp"
+        tools:text="Borrow" />
+
+    <Button
+        android:id="@+id/chat_now"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:text="Chat Now" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="34dp"
+        android:layout_height="30dp"
+        app:srcCompat="@android:drawable/sym_action_email"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="22dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_location_on_black"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="22dp"
+        android:layout_height="27dp"
+        app:srcCompat="@android:drawable/ic_media_previous"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+</android.support.constraint.ConstraintLayout>
